@@ -1,0 +1,10 @@
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\CryptLibraryING\obj\Debug\CryptLibraryING.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\CryptLibraryING\bin\Debug\CryptLibraryING.dll
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\CryptLibraryING\bin\Debug\CryptLibraryING.pdb
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\CryptLibraryING\obj\Debug\CryptLibraryING.dll
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\CryptLibraryING\obj\Debug\CryptLibraryING.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\CryptLibraryING\bin\Debug\CryptLibraryING.dll
+C:\Users\djart\Desktop\MDK\INGWIN\ING\CryptLibraryING\bin\Debug\CryptLibraryING.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\CryptLibraryING\obj\Debug\CryptLibraryING.dll
+C:\Users\djart\Desktop\MDK\INGWIN\ING\CryptLibraryING\obj\Debug\CryptLibraryING.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\CryptLibraryING\obj\Debug\CryptLibraryING.csprojAssemblyReference.cache

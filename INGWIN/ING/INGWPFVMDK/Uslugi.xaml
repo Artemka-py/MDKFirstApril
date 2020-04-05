@@ -1,0 +1,64 @@
+﻿<Window x:Class="INGWPF.Uslugi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INGWPF"
+        mc:Ignorable="d"
+        Title="Услуги" Height="750" Name="UslugiWPF" Width="800" Loaded="UslugiWPF_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Name="lblTitle" Content="Услуги" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+               VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30"></Label>
+        <DataGrid Name="dgUslugi" Grid.Row="1" IsReadOnly="True" Grid.Column="0" Grid.ColumnSpan="4"
+                Grid.RowSpan="3" ColumnWidth="auto" AutoGenerateColumns="True" AutoGeneratingColumn="DgUslugi_AutoGeneratingColumn" SelectionChanged="DgUslugi_SelectionChanged">
+        </DataGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="0">
+            <StackPanel Grid.Column="1" >
+                <Label Name="lblName_Of_Usluga" Content="Название Услуги:" Grid.Row="5" ></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbName_Of_Usluga" Grid.Row="2" 
+                             Text="{Binding SelectedItem.Name_Of_Usluga,
+                                 ElementName=dgUslugi}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="1">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblPrice_Usluga" Content="Цена услуги:" Grid.Row="5" ></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbPrice_Usluga" Grid.Row="2" 
+                             Text="{Binding  SelectedItem.Price_Usluga,
+                                 ElementName=dgUslugi}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.ColumnSpan="2">
+            <StackPanel>
+                <Button Name="btUslugiInsertType" Content="Добавить запись" Height="25" Click="BtUslugiInsertType_Click"></Button>
+                <Button Name="btUslugiUpdateType" Content="Изменить запись" Height="25" Click="BtUslugiUpdateType_Click"></Button>
+                <Button Name="btUslugiDeleteType" Content="Удалить запись" Height="25" Click="BtUslugiDeleteType_Click"></Button>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="6" Grid.Column="0">
+            <StackPanel>
+                <TextBox Name="tbSearch"  Height="30" Grid.Column="0" ></TextBox>
+                <Button Name="btSearch" Content="Поиск" Height="30" VerticalAlignment="Top" Click="BtSearch_Click"></Button>
+                <CheckBox Name="chbFilter" Content="Отфильтровать" VerticalAlignment="Center"  FontSize="10" Height="20" Click="ChbFilter_Click"></CheckBox>
+            </StackPanel>
+        </UniformGrid>
+        <Button Name="btClose" Content="Закрыть" Grid.Row="6" Grid.Column="1" Click="BtClose_Click" Margin="0,0,0,43"/>
+    </Grid>
+</Window>

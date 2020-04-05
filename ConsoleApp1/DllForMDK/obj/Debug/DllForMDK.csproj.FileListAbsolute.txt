@@ -1,0 +1,4 @@
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\DllForMDK\bin\Debug\DllForMDK.dll
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\DllForMDK\bin\Debug\DllForMDK.pdb
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\DllForMDK\obj\Debug\DllForMDK.dll
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\DllForMDK\obj\Debug\DllForMDK.pdb

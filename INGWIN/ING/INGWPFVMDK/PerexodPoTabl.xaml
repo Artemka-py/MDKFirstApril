@@ -1,0 +1,41 @@
+﻿<Window x:Class="INGWPF.PerexodPoTabl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INGWPF"
+        mc:Ignorable="d"
+        Title="Переход по таблицам" Height="800" Width="800" Background="Gray" Closed="Window_Closed" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Name="lblTitle" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Content="Переход по таблицам" 
+               HorizontalContentAlignment="Center" FontSize="30"></Label>
+        <Button Name="btDolgnost" Content="Должность" Grid.Column="1" Grid.Row="1" Click="BtDolgnost_Click"></Button>
+        <Button Name="btSotrudniki" Content="Сотрудники" Grid.Column="1" Grid.Row="2" Click="BtSotrudniki_Click">
+        </Button>
+        <Button Name="btDogovara" Content="Договара" Grid.Column="1" Grid.Row="3" Click="BtDogovara_Click"></Button>
+        <Button Name="btUslugi" Content="Услуги" Grid.Column="1" Grid.Row="4" Click="BtUslugi_Click"></Button>
+        <Button Name="btPokupatel" Content="Покупатель" Grid.Column="1" Grid.Row="5" Click="BtPokupatel_Click"></Button>
+        <Button Name="btTransportnaya_Nakladnaya" Content="Транспортная накладная" Grid.Column="1" Grid.Row="6" Click="BtTransportnaya_Nakladnaya_Click"></Button>
+        <Button Name="btTovarnoy_Nakladnoy" Content="Товарная накладная" Grid.Column="1" Grid.Row="7" Click="BtTovarnoy_Nakladnoy_Click"></Button>
+        <Button Name="btTovar" Content="Товар" Grid.Column="1" Grid.Row="8" Click="BtTovar_Click"></Button>
+        <Button Name="Exit" Content="Перезайти" Grid.Column="1" Grid.Row="10" Click="Exit_Click"></Button>
+    </Grid>
+</Window>

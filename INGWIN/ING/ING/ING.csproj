@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9469D97-EB01-4E03-A9FE-47F275CF3E21}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ING</RootNamespace>
+    <AssemblyName>ING</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AesCrypt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AesCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authorization_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization_From.Designer.cs">
+      <DependentUpon>Authorization_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection_Form.Designer.cs">
+      <DependentUpon>Connection_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentClass.cs" />
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObrabotkaZakaza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObrabotkaZakaza.Designer.cs">
+      <DependentUpon>ObrabotkaZakaza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PogruzkaTovara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PogruzkaTovara.Designer.cs">
+      <DependentUpon>PogruzkaTovara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriemkaTovara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriemkaTovara.Designer.cs">
+      <DependentUpon>PriemkaTovara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registr.Designer.cs">
+      <DependentUpon>Registr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchetOtZavoda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchetOtZavoda.Designer.cs">
+      <DependentUpon>SchetOtZavoda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Soglasovanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Soglasovanie.Designer.cs">
+      <DependentUpon>Soglasovanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationRules.cs" />
+    <EmbeddedResource Include="Authorization_From.resx">
+      <DependentUpon>Authorization_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connection_Form.resx">
+      <DependentUpon>Connection_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObrabotkaZakaza.resx">
+      <DependentUpon>ObrabotkaZakaza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PogruzkaTovara.resx">
+      <DependentUpon>PogruzkaTovara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriemkaTovara.resx">
+      <DependentUpon>PriemkaTovara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Registr.resx">
+      <DependentUpon>Registr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchetOtZavoda.resx">
+      <DependentUpon>SchetOtZavoda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Soglasovanie.resx">
+      <DependentUpon>Soglasovanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CryptLibraryING\CryptLibraryING.csproj">
+      <Project>{e1baa87f-b4d6-43e8-ae33-d015b8ec8046}</Project>
+      <Name>CryptLibraryING</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="laba.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,146 @@
+﻿<Window x:Class="INGWPF.Sotrudniki"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INGWPF"
+        mc:Ignorable="d"
+        Title="Сотрудники" Height="800" Width="800"
+         Background="Gray" Name="SotrudnikiWindow" Loaded="Sotrudniki_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Name="lblTitle" Content="Сотрудники" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5"
+               VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30"></Label>
+        <DataGrid Name="dgSotrudnik" Grid.Row="1" IsReadOnly="True" Grid.Column="0" Grid.ColumnSpan="4"
+                Grid.RowSpan="3" ColumnWidth="auto" AutoGenerateColumns="True" AutoGeneratingColumn="DgSotrudnik_AutoGeneratingColumn" SelectionChanged="DgSotrudnik_SelectionChanged">
+        </DataGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="0">
+            <StackPanel>
+                <Label Name="lblMidlle_Name_Sotrudnika" Content="Фамилия сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbMidlle_Name_Sotrudnika" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Name_Sotrudnika,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="1">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblName_Sotrudnika" Content="Имя сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbName_Sotrudnika" Grid.Row="2" Height="30"
+                             Text="{Binding  SelectedItem.Midlle_Name_Sotrudnika,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="2">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblLast_Name_Sotrudnika" Content="Отчество сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbLast_Name_Sotrudnika" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Last_Name_Sotrudnika,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.Column="0">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblDate_Sotrudnika" Content="Дата рождения сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbDate_Sotrudnika" Grid.Row="2" Height="30" 
+                             Text="{Binding SelectedItem.Birhady_Date_Sotrudnika,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.Column="1">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblSeries_Sotrudnika" Content="Серия паспорта сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbSeries_Sotrudnika" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Document_Series,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.Column="2">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblNumber_Sotrudnika" Content="Номер паспорта сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbNumber_Sotrudnika" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Document_Number,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="6" Grid.Column="0">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblLogin_Sotrudnika" Content="Логин сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbLogin_Sotrudnika" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Sotrudnika_Login,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="6" Grid.Column="1">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblPassword_Sotrudnika" Content="Пароль сотрудника:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbPassword_Sotrudnika" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Sotrudnika_Password,
+                                 ElementName=dgSotrudnik}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="6" Grid.Column="2">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblConfirm_Password_Sotrudnika" Content="Подтверждение пароля:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbConfirm_Password_Sotrudnika" Grid.Row="2" Height="30"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="7" Grid.ColumnSpan="1">
+            <StackPanel Grid.Column="0">
+                <Label Name="lblDolgnost" Content="Название должности:" FontSize="20"></Label>
+                <ComboBox Name="cbDolgnost" Height="30" SelectedValue="{Binding SelectedItem.Dolgnost_ID,
+                        ElementName=dgSotrudnik}"></ComboBox>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="8" Grid.ColumnSpan="3">
+            <StackPanel>
+                <Button Name="btSotrudnikInsertType" Content="Добавить запись" Height="25" Click="BtSotrudnikInsertType_Click"></Button>
+                <Button Name="btSotrudnikUpdateType" Content="Изменить запись" Height="25" Click="BtSotrudnikUpdateType_Click"></Button>
+                <Button Name="btSotrudnikDeleteType" Content="Удалить запись" Height="25" Click="BtSotrudnikDeleteType_Click"></Button>
+            </StackPanel>
+        </UniformGrid>
+        <Button Name="btClose" Content="Закрыть" Grid.Row="9" Grid.Column="3" Height="50" Click="BtClose_Click"></Button>
+        <UniformGrid Grid.Row="9" Grid.ColumnSpan="2" Grid.Column="0"  >
+            <StackPanel  Grid.Column="1">
+                <TextBox Name="tbSearch"  Height="30"></TextBox>
+                <Button Name="btSearch" Content="Поиск" Height="30" VerticalAlignment="Top" Click="BtSearch_Click"></Button>
+                <CheckBox Name="chbFilter" Content="Отфильтровать" VerticalAlignment="Center" FontSize="10" Click="ChbFilter_Click"></CheckBox>
+            </StackPanel>
+        </UniformGrid>
+          
+        
+    </Grid>
+</Window>

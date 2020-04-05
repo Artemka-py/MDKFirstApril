@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{7B1D58B4-52C8-4515-B614-5FB221928B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllForMDK", "DllForMDK\DllForMDK.csproj", "{0EF3B38C-270D-4984-82C1-EE0F3EBF9CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B1D58B4-52C8-4515-B614-5FB221928B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1D58B4-52C8-4515-B614-5FB221928B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1D58B4-52C8-4515-B614-5FB221928B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1D58B4-52C8-4515-B614-5FB221928B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF3B38C-270D-4984-82C1-EE0F3EBF9CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF3B38C-270D-4984-82C1-EE0F3EBF9CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF3B38C-270D-4984-82C1-EE0F3EBF9CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF3B38C-270D-4984-82C1-EE0F3EBF9CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AD836EA-09B4-4870-A916-DFFCB3F70A60}
+	EndGlobalSection
+EndGlobal

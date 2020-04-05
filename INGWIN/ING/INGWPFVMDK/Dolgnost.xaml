@@ -1,0 +1,70 @@
+﻿<Window x:Class="INGWPF.Dolgnost"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INGWPF"
+        mc:Ignorable="d"
+        Title="Должность" Height="750" Width="800" Name="DolgnostWPF" Loaded="DolgnostWPF_Loaded" Background="Aqua">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Name="lblTitle" Content="Должность" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+               VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30"></Label>
+        <DataGrid Name="dgDolgnost" Grid.Row="1" IsReadOnly="True" Grid.Column="0" Grid.ColumnSpan="4"
+                Grid.RowSpan="3" ColumnWidth="auto" AutoGenerateColumns="True" AutoGeneratingColumn="DgDolgnost_AutoGeneratingColumn" SelectionChanged="DgDolgnost_SelectionChanged">
+        </DataGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="0">
+            <StackPanel Grid.Column="1" >
+                <Label Name="lblName_Dolgnost" Content="Название должности:" Grid.Row="5" ></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbName_Dolgnost" Grid.Row="2" 
+                             Text="{Binding SelectedItem.Name_of_Dolgnost,
+                                 ElementName=dgDolgnost}"></TextBox>
+                </Border>
+                <Label Name="lblDostup_Dolgnost" Content="Доступ должности:" Grid.Row="5" ></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbDostup_Dolgnost" Grid.Row="2" 
+                             Text="{Binding SelectedItem.Dostup_Dolgnost,
+                                 ElementName=dgDolgnost}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="1">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblOklad" Content="Оклад:" Grid.Row="5" ></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbOklad" Grid.Row="2" 
+                             Text="{Binding  SelectedItem.Oklad_of_Dolgnost,
+                                 ElementName=dgDolgnost}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.ColumnSpan="2">
+            <StackPanel>
+                <Button Name="btDolgnostInsertType" Content="Добавить запись" Height="25" Click="BtDolgnostInsertType_Click"></Button>
+                <Button Name="btDolgnostUpdateType" Content="Изменить запись" Height="25" Click="BtDolgnostUpdateType_Click"></Button>
+                <Button Name="btDolgnostDeleteType" Content="Удалить запись" Height="25" Click="BtDolgnostDeleteType_Click"></Button>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="6" Grid.Column="0">
+            <StackPanel>
+                <TextBox Name="tbSearch"  Height="30" Grid.Column="0" ></TextBox>
+                <Button Name="btSearch" Content="Поиск" Height="30" VerticalAlignment="Top" Click="BtSearch_Click"></Button>
+                <CheckBox Name="chbFilter" Content="Отфильтровать" VerticalAlignment="Center"  FontSize="10" Height="20" Checked="ChbFilter_Checked"></CheckBox>
+            </StackPanel>
+        </UniformGrid>
+        <Button Name="btClose" Content="Закрыть" Grid.Row="6" Grid.Column="1" Click="BtClose_Click" Margin="0,0,0,43"/>
+    </Grid>
+</Window>

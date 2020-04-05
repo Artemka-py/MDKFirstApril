@@ -1,0 +1,83 @@
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\App.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF_MarkupCompile.cache
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF_MarkupCompile.lref
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Authorization.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\bin\Debug\INGWPF.exe.config
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\bin\Debug\INGWPF.exe
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\bin\Debug\INGWPF.pdb
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Authorization.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.g.resources
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.Properties.Resources.resources
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.csproj.GenerateResource.cache
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.csproj.CoreCompileInputs.cache
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.exe
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.pdb
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\PerexodPoTabl.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\PerexodPoTabl.baml
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.csprojAssemblyReference.cache
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Authorization.g.cs
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\PerexodPoTabl.g.cs
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\App.g.cs
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF_MarkupCompile.cache
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF_MarkupCompile.lref
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.exe
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.pdb
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\bin\Debug\INGWPF.exe.config
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\bin\Debug\INGWPF.exe
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\bin\Debug\INGWPF.pdb
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Authorization.baml
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\PerexodPoTabl.baml
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.g.resources
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.Properties.Resources.resources
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.csproj.GenerateResource.cache
+C:\Users\Артем\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.csproj.CoreCompileInputs.cache
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Sotrudniki.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Sotrudniki.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Dolgnost.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Dolgnost.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Dogovara.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Dogovara.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\INGWPF.csprojAssemblyReference.cache
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Uslugi.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Uslugi.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Pokupatel.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Pokupatel.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Transportnaya_Nakladnaya.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Transportnaya_Nakladnaya.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Tovarnoy_Nakladnoy.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Tovarnoy_Nakladnoy.baml
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Tovar.g.cs
+C:\Users\PC martin\Desktop\РВИАПОН\SvoeDelo2\INGWPF\obj\Debug\Tovar.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\bin\Debug\INGWPF.exe.config
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\bin\Debug\INGWPF.exe
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\bin\Debug\INGWPF.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF.csprojAssemblyReference.cache
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Authorization.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Dogovara.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Dolgnost.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\PerexodPoTabl.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Pokupatel.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Sotrudniki.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Tovar.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Tovarnoy_Nakladnoy.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Transportnaya_Nakladnaya.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Uslugi.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\App.g.cs
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF_MarkupCompile.cache
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF_MarkupCompile.lref
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Authorization.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Dogovara.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Dolgnost.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\PerexodPoTabl.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Pokupatel.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Sotrudniki.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Tovar.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Tovarnoy_Nakladnoy.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Transportnaya_Nakladnaya.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\Uslugi.baml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF.g.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF.Properties.Resources.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF.csproj.GenerateResource.cache
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF.csproj.CopyComplete
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF.exe
+C:\Users\djart\Desktop\MDK\INGWIN\ING\INGWPFVMDK\obj\Debug\INGWPF.pdb

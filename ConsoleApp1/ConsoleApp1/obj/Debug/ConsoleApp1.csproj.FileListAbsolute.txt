@@ -1,0 +1,9 @@
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\bin\Debug\DllForMDK.dll
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\bin\Debug\DllForMDK.pdb
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Artem\Desktop\MDK\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete

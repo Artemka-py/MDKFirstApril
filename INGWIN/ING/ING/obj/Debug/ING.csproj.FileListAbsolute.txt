@@ -1,0 +1,41 @@
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\bin\Debug\ING.exe.config
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\bin\Debug\ING.exe
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\bin\Debug\ING.pdb
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\obj\Debug\ING.csprojAssemblyReference.cache
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\obj\Debug\ING.Connection_Form.resources
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\obj\Debug\ING.Properties.Resources.resources
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\obj\Debug\ING.csproj.GenerateResource.cache
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\obj\Debug\ING.exe
+C:\Users\djart\Desktop\МДК 02.01\INGWIN\ING\ING\obj\Debug\ING.pdb
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\bin\Debug\ING.exe.config
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\bin\Debug\ING.exe
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\bin\Debug\ING.pdb
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.Connection_Form.resources
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.Properties.Resources.resources
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.csproj.GenerateResource.cache
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.exe
+C:\Users\Artem\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.csprojAssemblyReference.cache
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.Connection_Form.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.Properties.Resources.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.csproj.GenerateResource.cache
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.exe
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\ING.exe.config
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\ING.exe
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\ING.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\CryptLibraryING.dll
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\CryptLibraryING.pdb
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.csproj.CopyComplete
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.Authorization_From.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\EntityFramework.dll
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\EntityFramework.xml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.Registr.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.MainPage.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.ObrabotkaZakaza.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.SchetOtZavoda.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.PogruzkaTovara.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.PriemkaTovara.resources
+C:\Users\djart\Desktop\MDK\INGWIN\ING\ING\obj\Debug\ING.Soglasovanie.resources

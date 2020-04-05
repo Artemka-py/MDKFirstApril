@@ -1,0 +1,92 @@
+﻿<Window x:Class="INGWPF.Transportnaya_Nakladnaya"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INGWPF"
+        mc:Ignorable="d"
+        Title="Транспортная накладная" Name="Transportnaya_NakladnayaWPF" Height="800" Width="800" Loaded="Transportnaya_NakladnayaWPF_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Name="lblTitle" Content="Транспортная накладная" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5"
+               VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30"></Label>
+        <DataGrid Name="dgTransportnaya_NakladnayaWPF" Grid.Row="1" IsReadOnly="True" Grid.Column="0" Grid.ColumnSpan="4"
+                Grid.RowSpan="3" ColumnWidth="auto" AutoGenerateColumns="True" AutoGeneratingColumn="DgTransportnaya_NakladnayaWPF_AutoGeneratingColumn" SelectionChanged="DgTransportnaya_NakladnayaWPF_SelectionChanged">
+        </DataGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="0">
+            <StackPanel>
+                <Label Name="lblNazv_Transportnoy_Nakladnoy" Content="Навзвание транспортной накладной:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbNazv_Transportnoy_Nakladnoy" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Nazv_Transportnoy_Nakladnoy,
+                                 ElementName=dgTransportnaya_NakladnayaWPF}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="1">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblNomer_Transportnoy_Nakladnoy" Content="Номер транспортной накладной:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbNomer_Transportnoy_Nakladnoy" Grid.Row="2" Height="30"
+                             Text="{Binding  SelectedItem.Nomer_Transportnoy_Nakladnoy,
+                                 ElementName=dgTransportnaya_NakladnayaWPF}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="2">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblAdress_Dostavki" Content="Адрес доставки:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbAdress_Dostavki" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Adress_Dostavki,
+                                 ElementName=dgTransportnaya_NakladnayaWPF}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.ColumnSpan="1">
+            <StackPanel Grid.Column="0">
+                <Label Name="lblName_Sotrudnika" Content="Имена сотрудников:" FontSize="20"></Label>
+                <ComboBox Name="cbName_Sotrudnika" Height="30" SelectedValue="{Binding SelectedItem.Sotrudnika_ID_TR,
+                        ElementName=dgTransportnaya_NakladnayaWPF}"></ComboBox>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.ColumnSpan="1" Grid.Column="1">
+            <StackPanel Grid.Column="0">
+                <Label Name="lblNomer_of_Dogovor" Content="Номер договора:" FontSize="20"></Label>
+                <ComboBox Name="cbNomer_of_Dogovor" Height="30" SelectedValue="{Binding SelectedItem.Dogovor_ID_TR,
+                        ElementName=dgTransportnaya_NakladnayaWPF}"></ComboBox>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="8" Grid.ColumnSpan="3">
+            <StackPanel>
+                <Button Name="btTransportnaya_NakladnayaInsertType" Content="Добавить запись" Height="25" Click="BtTransportnaya_NakladnayaInsertType_Click"></Button>
+                <Button Name="btTransportnaya_NakladnayaUpdateType" Content="Изменить запись" Height="25" Click="BtTransportnaya_NakladnayaUpdateType_Click"></Button>
+                <Button x:Name="btTransportnaya_NakladnayaDeleteType" Content="Удалить запись" Height="25" Click="BtTransportnaya_NakladnayaDeleteType_Click"/>
+            </StackPanel>
+        </UniformGrid>
+        <Button Name="btClose" Content="Закрыть" Grid.Row="9" Grid.Column="3" Height="50" Click="BtClose_Click"></Button>
+        <UniformGrid Grid.Row="9" Grid.ColumnSpan="2" Grid.Column="0"  >
+            <StackPanel  Grid.Column="1">
+                <TextBox Name="tbSearch"  Height="30"></TextBox>
+                <Button Name="btSearch" Content="Поиск" Height="30" VerticalAlignment="Top" Click="BtSearch_Click"></Button>
+                <CheckBox Name="chbFilter" Content="Отфильтровать" VerticalAlignment="Center" FontSize="10" Click="ChbFilter_Click"></CheckBox>
+            </StackPanel>
+        </UniformGrid>
+    </Grid>
+</Window>

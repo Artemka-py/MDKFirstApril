@@ -1,0 +1,95 @@
+﻿<Window x:Class="INGWPF.Tovar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:INGWPF"
+        mc:Ignorable="d"
+        Title="Товар" Height="800" Name="TovarWPF" Width="800" Loaded="TovarWPF_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Name="lblTitle" Content="Товар" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5"
+               VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="30"></Label>
+        <DataGrid Name="dgTovar" Grid.Row="1" IsReadOnly="True" Grid.Column="0" Grid.ColumnSpan="4"
+                Grid.RowSpan="3" ColumnWidth="auto" AutoGenerateColumns="True" AutoGeneratingColumn="DgTovar_AutoGeneratingColumn" SelectionChanged="DgTovar_SelectionChanged">
+        </DataGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="0">
+            <StackPanel>
+                <Label Name="lblName_Tovara" Content="Название товара:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black"  >
+                    <TextBox Name="tbName_Tovara" Grid.Row="2" Height="30" MaxLength="100"
+                             Text="{Binding SelectedItem.Name_Tovara,
+                                 ElementName=dgTovar}" TextChanged="TbName_Tovara_TextChanged"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="1">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblNomer_Tovara" Content="Номер товара:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbNomer_Tovara" Grid.Row="2" Height="30" MaxLength="30"
+                             Text="{Binding  SelectedItem.Nomer_Tovara,
+                                 ElementName=dgTovar}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="4" Grid.Column="2">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblPrice_Tovara" Content="Цена товара:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbPrice_Tovara" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Price_Tovara,
+                                 ElementName=dgTovar}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.Column="0">
+            <StackPanel Grid.Column="0" >
+                <Label Name="lblKolichestvo_Tovara" Content="Кол-во товара:" Grid.Row="5" FontSize="20"></Label>
+                <Border BorderThickness="1" BorderBrush="Black" >
+                    <TextBox Name="tbKolichestvo_Tovara" Grid.Row="2" Height="30"
+                             Text="{Binding SelectedItem.Kolichestvo_Tovara,
+                                 ElementName=dgTovar}"></TextBox>
+                </Border>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="5" Grid.ColumnSpan="1" Grid.Column="1">
+            <StackPanel Grid.Column="0">
+                <Label Name="lblTovarnoy_Nakladnoy_ID" Content="Название тов. накладной:" FontSize="20"></Label>
+                <ComboBox Name="cbTovarnoy_Nakladnoy_ID" Height="30" SelectedValue="{Binding SelectedItem.Tovarnoy_Nakladnoy_ID,
+                        ElementName=dgTovar}"></ComboBox>
+            </StackPanel>
+        </UniformGrid>
+        <UniformGrid Grid.Row="8" Grid.ColumnSpan="3">
+            <StackPanel>
+                <Button Name="btDogovaraInsertType" Content="Добавить запись" Height="25" Click="BtDogovaraInsertType_Click"></Button>
+                <Button Name="btDogovaraUpdateType" Content="Изменить запись" Height="25" Click="BtDogovaraUpdateType_Click"></Button>
+                <Button Name="btDogovaraDeleteType" Content="Удалить запись" Height="25" Click="BtDogovaraDeleteType_Click"></Button>
+            </StackPanel>
+        </UniformGrid>
+        <Button Name="btClose" Content="Закрыть" Grid.Row="9" Grid.Column="3" Height="50" Click="BtClose_Click"></Button>
+        <UniformGrid Grid.Row="9" Grid.ColumnSpan="2" Grid.Column="0"  >
+            <StackPanel  Grid.Column="1">
+                <TextBox Name="tbSearch"  Height="30"></TextBox>
+                <Button Name="btSearch" Content="Поиск" Height="30" VerticalAlignment="Top" Click="BtSearch_Click"></Button>
+                <CheckBox Name="chbFilter" Content="Отфильтровать" VerticalAlignment="Center" FontSize="10" Click="ChbFilter_Click"></CheckBox>
+            </StackPanel>
+        </UniformGrid>
+    </Grid>
+</Window>
